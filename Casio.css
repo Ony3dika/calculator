@@ -1,0 +1,114 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    border: 5px solid rgb(43, 51, 77);
+    width: 400px;
+    height: 840px;
+    margin-left: 300px;
+    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: rgb(43, 51, 77);
+}
+
+.top{
+    display: flex;
+    width: 90%;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+    
+}
+
+.brown{
+    height: 50px;
+    width: 70px;
+    background-color: rgb(133, 74, 74);
+    border-radius: 5px;
+    flex: 70px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.name{
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+
+.screen{
+    width: 90%;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+    background-color: rgb(173, 173, 173);
+}
+
+.circle{
+    height: 80px;
+    width: 100px;
+    background-color: rgb(98, 100, 105);
+    border-radius: 230px;
+}
+
+.keys{
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    background-color: rgb(235, 235, 235);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.keys>button{
+    margin: 10px;
+    margin-left: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 45px;
+    height: 25px;
+    background-color: rgb(20, 23, 32);
+    color: aliceblue;
+
+}
+
+.white{
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: rgb(235, 235, 235);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 290px;
+}
+
+.white>button{
+    margin: 16px;
+    margin-left: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 50px;
+    height: 30px;
+    border: 2px solid;
+}
+
+.spec{
+    background-color: rgb(255, 123, 0);
+    border: none;
+}
